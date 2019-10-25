@@ -266,7 +266,7 @@ Download the dependent software libraries to the  **sample-peppapigdetection/scr
 </td>
 <td class="cellrowborder" valign="top" width="33.373337333733375%" headers="mcps1.2.4.1.2 "><p id="en-us_topic_0191342077_p23198241119"><a name="en-us_topic_0191342077_p23198241119"></a><a name="en-us_topic_0191342077_p23198241119"></a>Parses video files.</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="en-us_topic_0191342077_p18319926114"><a name="en-us_topic_0191342077_p18319926114"></a><a name="en-us_topic_0191342077_p18319926114"></a>The URL for downloading the FFmpeg 4.0 code is <a href="https://github.com/FFmpeg/FFmpeg/tree/release/4.0" target="_blank" rel="noopener noreferrer">https://github.com/FFmpeg/FFmpeg/tree/release/4.0</a>.</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="en-us_topic_0191342077_p18319926114"><a name="en-us_topic_0191342077_p18319926114"></a><a name="en-us_topic_0191342077_p18319926114"></a>The URL for downloading the FFmpeg 4.0 code is <a href="https://gitee.com/mirrors/ffmpeg/tree/release%2F4.0/" target="_blank" rel="noopener noreferrer">https://gitee.com/mirrors/ffmpeg/tree/release%2F4.0/</a>.</p>
 <p id="en-us_topic_0191342077_p731912201113"><a name="en-us_topic_0191342077_p731912201113"></a><a name="en-us_topic_0191342077_p731912201113"></a>After the download, keep the folder name <strong id="en-us_topic_0191342077_b18618937124312"><a name="en-us_topic_0191342077_b18618937124312"></a><a name="en-us_topic_0191342077_b18618937124312"></a>ffmpeg</strong>.</p>
 </td>
 </tr>
