@@ -99,6 +99,12 @@ function deploy_app()
         return 1
     fi
 
+    echo "[Step] Deploy ffmpeg libs..."
+    upload_tar_file "${script_path}/script/ffmpeg_lib.tar" "~/HIAI_PROJECTS/ascend_lib"
+    if [[ $? -ne 0 ]];then
+        return 1
+    fi
+
     #deploy dataset
     if [ -d ${script_path}/MyDataset ];then
         echo "[Step] Deploy dataset..."
