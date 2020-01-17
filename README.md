@@ -18,7 +18,7 @@ Before running the sample, obtain the source code package and configure the envi
 
 1.  <a name="en-us_topic_0191342077_li953280133816"></a>Obtain the source code package.
 
-    Download all the code in the  **sample-peppapigdetection**  repository at  [https://github.com/Ascend/sample-peppapigdetection](https://github.com/Ascend/sample-peppapigdetection)  to any directory on Ubuntu Server where  Mind Studio  is located as the  Mind Studio  installation user, for example,  _/home/ascend/sample-peppapigdetection_.
+    Download all the code in the  **sample-peppapigdetection**  repository at  [https://github.com/Ascend/sample-peppapigdetection](https://github.com/Ascend/sample-peppapigdetection)  to any directory on Ubuntu Server where  Mind Studio  is located as the  Mind Studio  installation user, for example,  $HOME/sample-peppapigdetection.
 
 2.  <a name="en-us_topic_0191342077_li5507119145914"></a>Obtain the original network model required by the application.
 
@@ -74,12 +74,11 @@ Before running the sample, obtain the source code package and configure the envi
 
     Run the following commands to add the environment variables  **DDK\_HOME**  and  **LD\_LIBRARY\_PATH**  to the last line:
 
-    **export DDK\_HOME=/home/XXX/tools/che/ddk/ddk**
+    **export DDK\_HOME=$HOME/tools/che/ddk/ddk**
 
     **export LD\_LIBRARY\_PATH=$DDK\_HOME/uihost/lib**
 
-    >![](doc/source/img/icon-note.gif) **NOTE:**   
-    >-   **XXX**  indicates the  Mind Studio  installation user, and  **/home/XXX/tools**  indicates the default installation path of the DDK.  
+    >![](doc/source/img/icon-note.gif) **NOTE:**    
     >-   If the environment variables have been added, skip this step.  
 
     Enter  **:wq!**  to save settings and exit.
@@ -91,7 +90,7 @@ Before running the sample, obtain the source code package and configure the envi
 
 ## Deployment<a name="en-us_topic_0191342077_section1759513564117"></a>
 
-1.  Access the root directory where the Peppa Pig detection application code is located as the  Mind Studio  installation user, for example,  _/home/ascend/sample-peppapigdetection_.
+1.  Access the root directory where the Peppa Pig detection application code is located as the  Mind Studio  installation user, for example,  $HOME/sample-peppapigdetection.
 2.  <a name="en-us_topic_0191342077_li08019112542"></a>Run the deployment script to prepare the project environment, including compiling and deploying the public library and configuring Presenter Server. Presenter Server is used to receive the data sent by the application and display the result through the browser. 
 
     **bash deploy.sh** _host\_ip_ _model\_mode_
@@ -162,7 +161,7 @@ Before running the sample, obtain the source code package and configure the envi
 
 1.  Run the Peppa Pig detection application.
 
-    Run the following command in the  **/home/ascend/sample-peppapigdetection**  directory to start the Peppa Pig detection application:
+    Run the following command in the  **$HOME/sample-peppapigdetection**  directory to start the Peppa Pig detection application:
 
     **bash run\_peppapigdetectionapp.sh** _host\_ip_ _presenter\_view\_appname_ _channel1_ _[channel2]_   &
 
