@@ -98,7 +98,7 @@ Before running the sample, obtain the source code package and configure the envi
     -   _host\_ip_: For the Atlas 200 DK developer board, this parameter indicates the IP address of the developer board. For the AI acceleration cloud server, this parameter indicates the IP address of the host.
 
     -   _model\_mode_  indicates the deployment mode of the model file. The value can be  **local**  or  **internet**. The default setting is  **internet**.
-        -   **local**: If the Ubuntu system where  Mind Studio  is located is not connected to the network, use the local mode. In this case, you need to first download the dependent common code library to the  **/sample-peppapigpeiqi/script**  directory by referring to  [Downloading Dependent Software Libraries](#en-us_topic_0191342077_section13807155164319).
+        -   **local**: If the Ubuntu system where  Mind Studio  is located is not connected to the network, use the local mode. In this case, you need to first download the dependent common code library to the  **sample-peppapigpeiqi/script**  directory by referring to  [Downloading Dependent Software Libraries](#en-us_topic_0191342077_section13807155164319).
         -   **internet**: If the Ubuntu system where  Mind Studio  is located is connected to the network, use the  **Internet**  mode. In this case, download the dependent code library online.
 
 
