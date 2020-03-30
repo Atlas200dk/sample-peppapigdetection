@@ -1,1 +1,0 @@
-peppapig detection model
