@@ -1,2 +1,0 @@
-###Format: ${branch}=,{version_xx1},{version_xx2},###
-1.1.0T.B650=,1.1.0T.B650,
